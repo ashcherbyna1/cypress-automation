@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cy:open": "cypress open",
-    "cy:run": "cypress run"
+    "cy:run": "cypress run",
+    "cy:run:qauto": "cypress run --config-file cypress.config.qauto.js",
+    "cy:run:qauto2": "cypress run --config-file cypress.config.qauto2.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,7 @@
   },
   "homepage": "https://github.com/ashcherbyna1/cypress-automation#readme",
   "devDependencies": {
-    "cypress": "^16.2.0"
+    "cypress": "^16.2.0",
+    "mochawesome": "^8.1.1"
   }
 }
